@@ -1,0 +1,24 @@
+html, body, #root {
+  min-height: 100%;
+}
+
+body{
+  margin: 0px;
+  font-family: "Poppins";
+  background-color: rgba(172, 172, 172, 0.475);
+  min-height: 100vh;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+}
