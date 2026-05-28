@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./addproduct.css";
 import uploadarea from "../../assets/upload_area.svg";
 import new_collections from '../../assets/new_collections'
-import Item from "../../../../../React-Frontend/src/Components/Item/Item";
+// import Item from "../../../../../React-Frontend/src/Components/Item/Item";
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 const Addproduct = () => {
   const [image, setImage] = useState(null);
