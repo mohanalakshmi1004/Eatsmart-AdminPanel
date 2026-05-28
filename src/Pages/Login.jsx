@@ -7,8 +7,8 @@ const Login = ({ onSuccess }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const ADMIN_EMAIL = 'admin@eatsmart'
-    const ADMIN_PASS = 'mohana@461'
+    const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_ID
+    const ADMIN_PASS = import.meta.env.VITE_ADMIN_PASSWORD
 
     if (email === ADMIN_EMAIL && password === ADMIN_PASS) {
       // mark admin as authenticated
